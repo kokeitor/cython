@@ -73,7 +73,7 @@ if __name__ == '__main__':
 
     start_execution = time.time()
 
-    main_c.fibonacci_recursive(100000)
+    main_c.fibonacci_recursive(100)
 
     end_execution = time.time()
 
@@ -83,7 +83,7 @@ if __name__ == '__main__':
 
     start_execution = time.time()
 
-    main_c.fibonacci_recursive_c(100000)
+    main_c.fibonacci_recursive_c(100)
 
     end_execution = time.time()
 
@@ -93,7 +93,7 @@ if __name__ == '__main__':
 
     start_execution = time.time()
 
-    main_c.fibonacci_recursive_c_st(100000)
+    main_c.fibonacci_recursive_c_st(100)
 
     end_execution = time.time()
 
@@ -103,7 +103,7 @@ if __name__ == '__main__':
 
     start_execution = time.time()
 
-    main_c.fibonacci_recursive_c_wrapped(100000)
+    main_c.fibonacci_recursive_c_wrapped(100)
 
     end_execution = time.time()
 
@@ -115,7 +115,7 @@ if __name__ == '__main__':
 
     start_execution = time.time()
 
-    main_c.fibonacci_recursive_c_st_wrapped(100000)
+    main_c.fibonacci_recursive_c_st_wrapped(100)
 
     end_execution = time.time()
 
